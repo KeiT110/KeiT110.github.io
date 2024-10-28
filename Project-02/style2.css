@@ -1,0 +1,267 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (min-width: 601px) {
+body {
+  background-color: #F1EBE4;
+  margin: 2%;
+  font-family: VArial, Helvetica, sans-serif;
+  font-size: 100%;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  @media screen and (max-width: 1200px){
+  }
+  
+  nav {
+    margin: .5%;
+    padding: 1.5%;
+    display: block;
+    border: 1px solid black;
+    border-radius: 0%;
+  }
+
+  nav {
+    color: #F1EBE4;
+    background-color: black;
+    padding: 0%;
+  }
+
+  a:link {
+    color: #F1EBE4;
+  }
+
+  a:focus {
+    color: darkgreen;
+  }
+  a:hover {
+    color: darkgreen;
+  }
+
+  a:visited {
+    color: #F1EBE4;
+  }
+
+
+  h3 {
+    padding-bottom: 0%;
+  }
+
+  .focusnews {
+    padding-top: 0%;
+  }
+  .aginfo {
+    float: left;
+    width: 24%;
+    margin-left:0%;
+  }
+
+  .aginfo figcaption {
+    text-align: left;
+    width:fit-content;
+  }
+
+  .aginfo figure {
+    margin-left: 0%;
+  }
+
+  .sideinfo {
+    background-color:#EBE0D3;
+    width: 24%;
+    float: right;
+    margin-left: .5%;
+    box-sizing: border-box;
+    padding: 3%;
+  }
+
+  .recipe {
+    background-color: #EBE0D3;
+    margin: auto;
+    width: 49%;
+    padding-right: .5%;
+    padding-left: .5%;
+    box-sizing: border-box;
+    padding: 3%;
+  }
+
+  .recipes h3 {
+    padding-top: .5%;
+  }
+
+  .recipe img {
+    margin: auto;
+  }
+  .recipe figcaption {
+    text-align: left;
+    width:70%;
+  }
+
+  button {
+    background-color: black;
+    height: 40px;
+  }
+
+  .directions {
+    column-count: 2;
+    width: 85%;
+    padding-bottom: 8%;
+  }
+
+  footer {
+    clear: left;
+    margin: 0;
+    padding: 0;
+    display: block;
+    color: #EBE0D3;
+    background-color: black;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+}
+}
+
+
+
+/* MOBILE */
+
+  
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: #F1EBE4;
+      margin: 2%;
+      font-family: VArial, Helvetica, sans-serif;
+      font-size: 100%;
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Times New Roman", Times, serif;
+      }
+
+      img {
+        max-width: 100%;
+      }
+      
+      nav {
+        margin: .5%;
+        padding: 1.5%;
+        display: block;
+        border: 1px solid black;
+        border-radius: 0%;
+      }
+
+      nav {
+        color: #F1EBE4;
+        background-color: black;
+        padding: 0%;
+      }
+
+      a:link {
+        color: #F1EBE4;
+      }
+
+      a:focus {
+        color: darkgreen;
+      }
+      a:hover {
+        color: darkgreen;
+      }
+
+      a:visited {
+        color: #F1EBE4;
+      }
+
+
+      h3 {
+        padding-bottom: 0%;
+      }
+
+      .focusnews {
+        padding-top: 0%;
+      }
+      .aginfo {
+        float: left;
+        width: 100%;
+        margin: 10%;
+        display: block;
+        padding: 10%;
+        padding-top: 0%;
+        margin-bottom:1%;
+        padding-bottom: 0%;
+        margin-top: 1%;
+      }
+
+      .aginfo figcaption {
+        text-align: left;
+        width: 257px;
+    
+      }
+
+      .aginfo figure {
+        margin: auto;
+      }
+
+      .sideinfo {
+        background-color:#EBE0D3;
+        width: 100%;
+        float: right;
+        box-sizing: border-box;
+        padding: 15%;
+        margin-bottom: 6%;
+      }
+
+      .sideinfo img {
+        padding-top: .5%;
+      }
+
+    
+    }
+
+      button {
+        background-color: black;
+        height: 40px;
+      }
+
+
+      .recipe {
+        padding: 5%;
+      }
+    
+      .directions {
+        column-count: 2;
+        width: 100%;
+        padding-bottom: 8%;
+        diplay: block;
+        margin-top: 5%;
+        padding-top: 10%;
+      }
+
+      footer {
+        clear: left;
+        margin: 0;
+        padding: 0;
+        display: block;
+        color: #EBE0D3;
+        background-color: black;
+        width: 100%;
+      }
+
+      ul {
+        list-style-type: none;
+      }
+}
+  
